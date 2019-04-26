@@ -60,6 +60,13 @@
           </div>
         </div>
       </div>
+      <div class="columns">
+        <div class="column">
+          <p class="footer">
+            <strong>Haris Rahman</strong>&nbsp;<small>|</small>&nbsp;<small>+628159156249</small>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -83,13 +90,13 @@ export default {
       if (leftValue & rightValue) {
         return leftValue + rightValue;
       }
-      return 0;
+      return '';
     },
     fnMultiply(leftValue, rightValue) {
       if (leftValue & rightValue) {
         return leftValue * rightValue;
       }
-      return 0;
+      return '';
     },
     checkPrimeNumber(val) {
       if (val < 2) {
@@ -163,5 +170,9 @@ export default {
 .result.prime {
   width: 230px;
   word-break: break-all;
+}
+.footer {
+  padding: 30px 0;
+  background-color: #fff;
 }
 </style>
