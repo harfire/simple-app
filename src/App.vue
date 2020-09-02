@@ -5,18 +5,18 @@
 </template>
 
 <script>
-import SimpleApp from './components/SimpleApp.vue'
+import SimpleApp from './components/SimpleApp.vue';
 
 export default {
   name: 'app',
   components: {
     SimpleApp
   }
-}
+};
 </script>
 
 <style lang="scss">
-@import "./assets/sass/main.scss";
+@import './assets/sass/main.scss';
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
