@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title is-3">{{ title }}</h1>
-    <p class="space">This Test Using Vuejs as JS Framework</p>
+    <p class="space">Calculate Sum, Multiply, Prime Number, and Fibonacci</p>
 
     <div class="container">
       <div class="columns">
