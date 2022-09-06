@@ -1,19 +1,13 @@
 <template>
   <div id="app">
-    <SimpleApp />
+    <nav>
+      <router-link to="/">
+        Home
+      </router-link>
+    </nav>
+    <router-view />
   </div>
 </template>
-
-<script>
-import SimpleApp from './components/SimpleApp.vue';
-
-export default {
-  name: 'app',
-  components: {
-    SimpleApp
-  }
-};
-</script>
 
 <style lang="scss">
 @import './assets/sass/main.scss';
